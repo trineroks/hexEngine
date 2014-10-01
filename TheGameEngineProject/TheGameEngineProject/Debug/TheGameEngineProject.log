@@ -1,0 +1,59 @@
+﻿Build started 10/1/2014 1:10:51 AM.
+     1>Project "C:\src\app\TheGameEngineProject\TheGameEngineProject\TheGameEngineProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\src\app\Libraries\SDL2_ttf-2.0.12\include" /I"C:\src\app\Libraries\SDL2_image-2.0.0\include" /I"C:\src\app\Libraries\SDL2_mixer-2.0.0\include" /IC:\src\app\Libraries\SDL2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ActionMenu.cpp Aircraft.cpp Environment.cpp GUI.cpp GameState.cpp Infantry.cpp InputController.cpp Main.cpp MainExec.cpp MainMenu.cpp Sprite.cpp TheGameEngineProject.cpp TileData.cpp Unit.cpp Vehicle.cpp
+         Unit.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(104): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(111): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(342): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(389): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(478): warning C4018: '<' : signed/unsigned mismatch
+         Sprite.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(184): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(185): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(197): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(204): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Vehicle.cpp
+         TileData.cpp
+         TheGameEngineProject.cpp
+         MainMenu.cpp
+         MainExec.cpp
+         Main.cpp
+         InputController.cpp
+         Infantry.cpp
+         GameState.cpp
+         GUI.cpp
+         Environment.cpp
+         Aircraft.cpp
+         ActionMenu.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\app\Libraries\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"C:\src\app\Libraries\SDL2_mixer-2.0.0\lib\x86" /LIBPATH:"C:\src\app\Libraries\SDL2_image-2.0.0\lib\x86" /LIBPATH:C:\src\app\Libraries\SDL2\lib\x86 SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.lib" /MACHINE:X86 Debug\ActionMenu.obj
+         Debug\Aircraft.obj
+         Debug\Environment.obj
+         Debug\GameState.obj
+         Debug\GUI.obj
+         Debug\Infantry.obj
+         Debug\InputController.obj
+         Debug\Label.obj
+         Debug\Main.obj
+         Debug\MainExec.obj
+         Debug\MainMenu.obj
+         Debug\Player.obj
+         Debug\SDL_Setup.obj
+         Debug\Sprite.obj
+         Debug\stdafx.obj
+         Debug\TheGameEngineProject.obj
+         Debug\TileData.obj
+         Debug\Unit.obj
+         Debug\Vehicle.obj
+         Debug\Weapon.obj
+     1>ActionMenu.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         TheGameEngineProject.vcxproj -> C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.exe
+     1>Done Building Project "C:\src\app\TheGameEngineProject\TheGameEngineProject\TheGameEngineProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49
