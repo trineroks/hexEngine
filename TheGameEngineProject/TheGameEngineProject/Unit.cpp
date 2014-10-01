@@ -642,8 +642,8 @@ void CUnit::drawSprite(float camX, float camY)
 {
 	if (inDefaultState_)
 	{
-		unitSprite_->setWaveAnimate(0, 3, 0, 150);
-		//unitSprite_->setAnimateManual(0);
+		//unitSprite_->setWaveAnimate(0, 3, 0, 150);
+		unitSprite_->setAnimateManual(0);
 		unitSprite_->drawSprite(camX, camY);
 		if (inFloaterState_)
 			numberFloaterHandler(camX, camY);
