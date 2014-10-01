@@ -655,7 +655,7 @@ void CUnit::drawSprite(float camX, float camY)
 	if (movedThisTurn_ && attackedThisTurn_)
 		gameEnvironment_->paintEndTile(position_.x, position_.y, camX, camY);
 }
-//test
+
 int CUnit::attackerInRangeForRetaliation(CUnit* attacker)
 {
 	int primaryDamage = 0;
