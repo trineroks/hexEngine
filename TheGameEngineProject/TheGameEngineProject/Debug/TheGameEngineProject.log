@@ -1,14 +1,76 @@
-﻿Build started 10/1/2014 1:32:54 AM.
+﻿Build started 10/9/2014 1:30:40 AM.
      1>Project "C:\src\app\TheGameEngineProject\TheGameEngineProject\TheGameEngineProject.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\src\app\Libraries\SDL2_ttf-2.0.12\include" /I"C:\src\app\Libraries\SDL2_image-2.0.0\include" /I"C:\src\app\Libraries\SDL2_mixer-2.0.0\include" /IC:\src\app\Libraries\SDL2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Unit.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\src\app\TheGameEngineProject\TheGameEngineProject /I"C:\src\app\Libraries\SDL2_ttf-2.0.12\include" /I"C:\src\app\Libraries\SDL2_image-2.0.0\include" /I"C:\src\app\Libraries\SDL2_mixer-2.0.0\include" /IC:\src\app\Libraries\SDL2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ActionMenu.cpp Aircraft.cpp Environment.cpp GameState.cpp GUI.cpp Infantry.cpp InputController.cpp jsoncpp.cpp Label.cpp Main.cpp MainExec.cpp MainMenu.cpp Player.cpp SDL_Setup.cpp Sprite.cpp stdafx.cpp TheGameEngineProject.cpp TileData.cpp Unit.cpp Vehicle.cpp Weapon.cpp
+         Weapon.cpp
+         Vehicle.cpp
          Unit.cpp
      1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(104): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
      1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(111): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
      1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(342): warning C4018: '<' : signed/unsigned mismatch
      1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(389): warning C4018: '<' : signed/unsigned mismatch
      1>c:\src\app\thegameengineproject\thegameengineproject\unit.cpp(478): warning C4018: '<' : signed/unsigned mismatch
-     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+         TileData.cpp
+         TheGameEngineProject.cpp
+         stdafx.cpp
+         Sprite.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(184): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(185): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(197): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\sprite.cpp(204): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         SDL_Setup.cpp
+         Player.cpp
+         MainMenu.cpp
+         MainExec.cpp
+         Main.cpp
+         Label.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(124): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(125): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(136): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(137): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(138): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\label.cpp(139): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         jsoncpp.cpp
+         InputController.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\inputcontroller.cpp(119): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\inputcontroller.cpp(120): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+         Infantry.cpp
+         GUI.cpp
+         GameState.cpp
+         Environment.cpp
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(112): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(273): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(332): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(335): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(339): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(349): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(352): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(356): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(366): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(369): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(383): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(386): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(390): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(408): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(409): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(420): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(421): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(448): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(450): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(540): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(746): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(749): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\src\app\thegameengineproject\thegameengineproject\environment.cpp(753): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Aircraft.cpp
+         Generating Code...
+         Compiling...
+         ActionMenu.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\app\Libraries\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"C:\src\app\Libraries\SDL2_mixer-2.0.0\lib\x86" /LIBPATH:"C:\src\app\Libraries\SDL2_image-2.0.0\lib\x86" /LIBPATH:C:\src\app\Libraries\SDL2\lib\x86 SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\src\app\TheGameEngineProject\Debug\TheGameEngineProject.lib" /MACHINE:X86 Debug\ActionMenu.obj
          Debug\Aircraft.obj
@@ -17,6 +79,7 @@
          Debug\GUI.obj
          Debug\Infantry.obj
          Debug\InputController.obj
+         Debug\jsoncpp.obj
          Debug\Label.obj
          Debug\Main.obj
          Debug\MainExec.obj
@@ -37,4 +100,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.98
+Time Elapsed 00:00:19.37

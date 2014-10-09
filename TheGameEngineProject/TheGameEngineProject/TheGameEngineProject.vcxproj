@@ -51,7 +51,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\src\app\Libraries\SDL2_ttf-2.0.12\include;C:\src\app\Libraries\SDL2_image-2.0.0\include;C:\src\app\Libraries\SDL2_mixer-2.0.0\include;C:\src\app\Libraries\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\src\app\TheGameEngineProject\TheGameEngineProject;C:\src\app\Libraries\SDL2_ttf-2.0.12\include;C:\src\app\Libraries\SDL2_image-2.0.0\include;C:\src\app\Libraries\SDL2_mixer-2.0.0\include;C:\src\app\Libraries\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -108,6 +108,7 @@
     <ClCompile Include="GUI.cpp" />
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="InputController.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
     <ClCompile Include="Label.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainExec.cpp" />

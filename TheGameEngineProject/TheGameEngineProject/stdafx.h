@@ -11,6 +11,7 @@
 #include <SDL_image.h>
 #include <SDL_mixer.h>
 #include <SDL_ttf.h>
+#include <json/json.h>
 
 #define HEX_SIZE 100
 #define HP_LABEL_POS 50
